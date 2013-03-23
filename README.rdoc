@@ -1,1 +1,6 @@
-Make all links green
+Installation:
+  git clone git@github.com:eugenekorpan/task_1.git
+  rails s
+
+Task #1:
+  Make all links green

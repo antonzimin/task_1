@@ -1,0 +1,18 @@
+<style>
+  .selected {
+    underline: none;
+    text-decoration: none;
+    font-weight: normal;
+  }
+</style>
+
+<a href='/birds' id='birds'> Birds </a> |
+<a href='/news' id='news'> News </a> |
+<a href='/posts' id='posts'> Posts </a>
+<a href='/outland' id='tasks' style='float: right'> Outland </a>
+
+<%= javascript_include_tag "application" %>
+
+<script type='text/javascript'>
+  $("#<%= params[:controller] %>").addClass('selected')
+</script>

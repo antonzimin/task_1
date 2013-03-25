@@ -11,3 +11,7 @@
  *= require_self
  *= require_tree .
  */
+a { color: green }
+a:visited { color: green }
+a:hover { color: green }
+a:active { color: green }
